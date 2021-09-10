@@ -1,0 +1,118 @@
+body{
+    font-family:verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin:0px;
+    text-align: center;
+  }
+#nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float: right;
+    background-color: #2d57a3;
+}
+#nav li{
+   display: inline-block;
+}  
+#nav ul li a:hover{
+    background-color: #a8b9d9;
+}
+#nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-left: solid white 1px;
+}
+#imp{
+    font-size: large;
+    color: red;
+    padding-left: 5px;
+    text-align: left;
+}
+table{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#index-table,#index-table tr,#index-table th,#index-table td{
+    border:solid black 1px;
+    border-collapse: collapse;
+}
+#index-table th{
+    background-color:#a8b9d9;
+    color: #191970;
+    font-size: 14px;
+}
+.imp-notice{
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:#FF8C00;
+    font-size: 16px;
+    font-family: arial;
+    text-align: left;
+    
+}
+#impred{
+    text-align: left;
+    color: red;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#sugg{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+.inst-body{
+    border: 3px solid #2d57a3;
+    margin: 15px 40px;
+}
+#blu {
+    color: #001cb8;
+}
+.inst-body li{
+    list-style-type: numeric;
+}
+#red{
+    color: red;
+}
+#inst-bottom{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#inst-bottom button{
+    background-color: #2d57a3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #2d57a3;
+}
+#part1-body{
+    margin:0;
+}
+#part1-form{
+    border: 2px solid #2d57a3;
+    margin: 5px 50px;
+    text-align: left;
+    
+}
+#part1-form table {
+    width: 90%;
+    padding-top: 15px;
+}
+#part1-table-head{
+    background-color: grey;
+    color: white;
+}
+#part1-form-td1{
+    width:30%;
+    vertical-align:top;
+}
+#part1-table-td2{
+    width: 60%;
+}
