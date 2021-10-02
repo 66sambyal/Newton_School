@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#todo{
+    /* border: 1px solid white; */
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    left: 10%;
+    /* align-items: center; */
+}
+#todoList{
+    background-color: rgb(228, 138, 138);
+    border: nones;
+    position: relative;
+    float: left;
+    width: 74%;
+    height: 500px;
+    display: flex;
+    
+}
+#todoInfo{
+    background-color: rgb(221, 172, 172);
+    border:none;
+    border: none;
+    color: black;
+    position: relative;
+    float: right;
+    width: 50px;
+    /* display: flex; */
+    height: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;   
+    overflow: hidden;
+}
+#todoSearchBar{
+    margin: 20px auto;
+    align-items: center;
+    height: fit-content;
+    display: block;
+}
+#todoText{
+    border-radius: 50px 0 0 50px;
+    border:hidden;
+    padding: 6px;
+    font-size: medium;
+}
+#todoAddBtn{
+    border: hidden;
+    border-radius: 0 50px 50px 0;
+    padding: 5px;
+    font-size: large;
+    width: 25px;
+}
+#todoAddBtn:hover{
+    background-color:rgb(115, 111, 119);
+    color:white;
+}
+#todoDisplay{
+    color: white;
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 350px;
+    margin: 90px 2%;
+    padding: 20px;
+    list-style: none;
+}
+.unfinished{
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    color: black;
+    width: 110%;
+    height: 25px;
+    background-color: white;
+    border:none;
+    text-align: left;
+}
+.remove{
+    position: relative;
+    margin:0;
+    float: right;
+    padding: auto;
+    height: 25px;
+    width: 25px;
+}
+.mark{
+    position: relative;
+    margin:0;
+    float: right;
+    padding: auto;
+    height: 25px;
+    width: 25px;
+}
+.mark:hover{
+    background-color:rgb(115, 111, 119);
+    color:white;
+}
