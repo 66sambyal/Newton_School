@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cal{
+    position: relative;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    padding:20px;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:10px 10px 5px #aaaaaa;
+
+    
+}
+#output{
+    position: absolute;
+    width:85%;
+    height: 50px;
+    font-size: 35px;
+    text-align: right;
+    margin-left: 5px;
+    overflow-x: scroll;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+}
+
+.btn{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    font-size: large;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.btn:hover{
+    font-weight: bolder;
+    border-top: none;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    border-left: none;
+}
+#block9, #block8, #blockclear{
+    margin-top: 50px;
+}
+#blockequal{
+    width: 97%;
+}

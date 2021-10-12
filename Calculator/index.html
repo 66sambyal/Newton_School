@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div id="cal">
+        <input type="text" value="0" id="output" disabled><br><br>
+        <button id="block9" class="btn" value="9" onclick="numFun(this.id)">9</button>
+        <button id="block8" class="btn" value="8" onclick="numFun(this.id)">8</button>
+        <button id="block7" class="btn" value="7" onclick="numFun(this.id)">7</button>
+        <button id="blockclear" class="btn" onclick="clearFun(this.id)">C</button>
+        <br>
+        <button id="block6" class="btn" value="6" onclick="numFun(this.id)">6</button>
+        <button id="block5" class="btn" value="5" onclick="numFun(this.id)">5</button>
+        <button id="block4" class="btn" value="4" onclick="numFun(this.id)">4</button>
+        <button id="blockdiv" class="btn" onclick="divFun()">/</button>
+        <br>
+        <button id="block3" class="btn" value="3" onclick="numFun(this.id)">3</button>
+        <button id="block2" class="btn" value="2" onclick="numFun(this.id)">2</button>
+        <button id="block1" class="btn" value="1" onclick="numFun(this.id)">1</button>
+        <button id="blockplus" class="btn" onclick="sumFun()">+</button>
+        <br>
+        <button id="blockmul" class="btn" onclick="mulFun()">*</button>
+        <button id="block0" class="btn num" value="0" onclick="numFun(this.id)">0</button>
+        <button id="blockdot" class="btn" onclick="dotFun()"><b>.</b></button>
+        <button id="blockmin" class="btn" onclick="subFun()">-</button>
+
+        <br>
+        <button id="blockequal" class="btn" onclick="equalFun()">=</button><br>
+        <span id="testing"></span>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
